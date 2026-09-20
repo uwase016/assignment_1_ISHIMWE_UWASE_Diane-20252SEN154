@@ -100,13 +100,21 @@ WHERE previous_date IS NOT NULL;
 **Explanation:** Using the `LAG()` function, we retrieve a customer's previous order date on the same row as their current order, allowing us to subtract them and see the exact number of days passed between store visits.
 
 ## Screenshots/Results
+**Customer Orders**
 <img width="1917" height="1077" alt="Q1" src="https://github.com/user-attachments/assets/200fb559-61b6-4f39-aa70-c7b5203f51ec" />
+**Order Item Details**
 <img width="1917" height="1197" alt="Q2" src="https://github.com/user-attachments/assets/e0348215-3b99-45e0-9dc1-74a0fc1a6ba6" />
+**All Customers and their Orders**
 <img width="1917" height="1101" alt="Q3" src="https://github.com/user-attachments/assets/58e46e80-d50d-4fe7-a7b2-1d197e29b8be" />
+**Above Average Spenders**
 <img width="1917" height="1057" alt="Q4" src="https://github.com/user-attachments/assets/759c4a23-92fd-40e5-b72d-b069c4001977" />
+**Rank Customers by Spend**
 <img width="1917" height="922" alt="Q5" src="https://github.com/user-attachments/assets/91c885d3-a4f1-45f8-b36f-07ec659e7af6" />
+**Numbering Customer Orders**
 <img width="1917" height="1062" alt="Q6" src="https://github.com/user-attachments/assets/df03e37e-a602-414a-93e3-bd030a9aee01" />
+**Running Total of Revenue**
 <img width="1917" height="1065" alt="Q7" src="https://github.com/user-attachments/assets/f9ba3b34-3ca2-4d04-96c3-eb4c4984d119" />
+**Days Between Orders**
 <img width="1917" height="1057" alt="Q8" src="https://github.com/user-attachments/assets/e15e1ea9-1fe5-4e2a-a78d-f8fee6b5f9bd" />
 
 ## Business Interpretation
